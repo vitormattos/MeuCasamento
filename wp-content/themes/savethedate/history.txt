@@ -1,0 +1,10 @@
+1.0.0 - 2010-05-04
+	Initial Release Version
+1.0.1 - 2010-05-05
+	Fixed copyright date
+1.0.2 - 2010-06-21
+	Updated lib/file-utility to version 1.4.10
+1.0.3 - 2010-08-24
+	Updated lib/tutorials to version 1.1.6
+1.0.4 - 2010-09-02
+	Updated lib/tutorials to version 1.1.7

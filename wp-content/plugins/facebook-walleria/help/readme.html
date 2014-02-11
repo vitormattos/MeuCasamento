@@ -1,0 +1,320 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/css/style.css"/>
+        <title>Facebook Walleria Documentation</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <a href="http://zoxion.com"><img id="logo" src="assets/images/zoxion.png"/></a><div id="title">Facebook Walleria 2.5 by Freeman Chari</div>
+        <h1  class="contents"><span style="">Table of Contents</span></h1>
+<ol>
+	<li><a href="#about">About  Facebook Walleria</a></li>
+	<li><a href="#requirements">Requirements</a></li>
+	<li><a href="#installsetup">Installation &amp; Setup</a></li>
+<ol>
+	<li><a href="#autoinstall">Automatic Install</a></li>
+        <li><a href="#maninstall">Manual Install</a></li>
+	<li><a href="#setup">Setup</a></li>
+</ol>
+	<li><a href="#updating">Updating Facebook Walleria</a></li>
+	<li><a href="#howto">How to use</a></li>
+<ol>
+	<li><a href="#wall">Show Facebook Wall</a></li>
+	<li><a href="#albums">Show Facebook Albums</a></li>
+	<li><a href="#photos">Show Facebook Photos</a></li>
+	<li><a href="#events">Show Facebook Events</a></li>
+</ol>
+	<li><a href="#ownstyles">Creating your own styles</a></li>
+	<li><a href="#troubleshooting">Troubleshooting</a></li>
+<ol>
+	<li><a href="#tr1">No data returned from Facebook</a></li>
+	<li><a href="#tr2">Call to undefined method Facebook::setAccessToken() error</a></li>
+</ol>
+        <li><a href="#shortcodes">Shortcodes</a></li>
+        <li><a href="#shortcodes">Widgets</a></li>
+        <li><a href="#shortcodes">Using in Templates</a></li>
+	<li><a href="#faq">FAQ</a></li>
+<ol>
+	<li><a href="#faq1">So how does Facebook Walleria’s wall work?</a></li>
+	<li><a href="#faq2">Is the data legal?</a></li>
+	<li><a href="#faq3">What kind of facebook information is stored in my database?</a></li>
+	<li><a href="#faq4">How do I get Application Id and Application Secret?</a></li>
+	<li><a href="#faq5">How do I create an application</a></li>
+	<li><a href="#faq6">Can I use the Facebook application on localhost?</a></li>
+	<li><a href="#faq7">Can I show my personal wall with Facebook Walleria?</a></li>
+	<li><a href="#faq8">How do I get the  facebook  username or user id?</a></li>
+	<li><a href="#faq9">How do I get the  facebook  username or user id?</a></li>
+	<li><a href="#faq10">What happens if the user has javascript turned off?</a></li>
+	<li><a href="#faq11">What happens if the user has javascript turned off?</a></li>
+</ol>
+	<li><a href="#changelog">Changelog</a></li>
+</ol>
+<h1 class="mainitem" id="about"><span style=";">About  Facebook Walleria</span></h1>Facebook Walleria is a WordPress Plugin that embeds a number of Facebook Objects into your website. It uses the Facebook Graph to pull information about Albums, Photos, Feed, Comments, Events and presents the information on your website in a sleek style.
+Instead of doing a double job of updating your site and Facebook profile, Facebook Walleria enables you to update your albums, events and feed on Facebook with the changes appearing in real-time on your website.
+Facebook sharing for logged in Facebook users is also integrated with Events and Wall allowing interactivity with your visitors. Commenting and Liking has also been enabled on the Wall, thus your visitors can make comments on topics on your feed without leaving your website.
+The potential of Facebook Walleria is massive, as you can also use the Feed/Wall to present any object with a feed, like comments about an event, a group or an application with minimal tweaking.
+Call it Seamless Facebook Integration!
+<h1 class="mainitem" id="requirements"><span style=";">Requirements</span></h1>
+There are several requirements for  Facebook Walleria to work optimally
+<ul>
+	<li>Wordpress 3.3  and above</li>
+	<li>PHP 5.3 with CURL and above</li>
+	<li>jQuery 1.7 and above</li>
+</ul>
+<h1></h1>
+<h1 class="mainitem" id="installsetup"><span style=";">Installation &amp; Setup</span></h1>
+<h3 id="autoinstall">Automatic Installation</h3>
+<ol>
+    <li>Navigate to Control Panel: Plugins</li>
+    <li>Click <em>Add New</em></li>
+    <li>Upload the .zip file </li>
+    <li>Under <strong>Facebook Walleria</strong>, click <em>Activate</em></li>
+    
+</ol>
+<h3 id="maninstall">Manual Installation</h3>
+<ol>
+<li>Decompress the .zip file you downloaded from CodeCanyon.</li>
+<li>Find the <code>facebook-walleria</code> folder.</li>
+<li>Upload the <code>facebook-walleria</code> folder to your <code>wp-content/plugins</code> directory.</li>
+<li>Navigate to your Control Panel: Plugins</li>
+<li>Under <strong>Facebook Walleria</strong>, click <em>Activate</em></li>
+</ol>
+<h2 id="setup">Setup your Facebook Account</h2>
+You need to have a valid Application Id and Application Secret from Facebook.
+If you don't have one, you can <a href="https://developers.facebook.com/apps">Create a Facebook Application Here</a> 
+<ul>
+    <li>Navigate to <em>Settings</em> &gt;&gt; <em>Facebook Walleria</em></li>
+	<li>Under Facebook Permissions tab enter you Application Id and Application Secret.</li>
+	<li>Save your changes</li>
+	<li>If you are entering your App Credentials for the first time, you will be prompted to login at Facebook and to grant permissions to your application.</li>
+	<li>Upon granting the permissions, you will be redirected to your site’s admin interface. At this point  you will be all set to use the plugin</li>
+    <li>otsu@tp2p</li>
+</ul>
+<h1 class="mainitem" id="updating"><span style=";">Updating Facebook Walleria</span></h1>
+When we release an update to FW you will be notified on your Admin Panel as follows
+<a href="assets/images/update.png"><img class="alignnone size-full wp-image-96" title="update" src="assets/images/update.png" alt="" width="361" height="111" /></a>
+<ul>
+	<li>Log into CodeCanyon using the account that you used to purchase</li>
+	<li>Download Facebook Walleria latest version</li>
+	<li>Upload your files to your server through an FTP client</li>
+</ul>
+<h1 class="mainitem" id="howto"><span style=";">How  to use</span></h1>
+When writing a post you can use the following tags:
+<h2 id="wall">Show Facebook Wall</h2>
+<strong>[fpwall  id=x]</strong>
+
+Where x is the wall’s facebook user id. . For example, if you want to show the facebook  platform page wall;  you can use [fpwall id='platform'] . If the page does not have an alias, the page id eg  [fpwall id=121757457911887].
+
+To show the like-box  on the page
+
+[fpwall id=’platform’  url=’http://facebook.com/platform’]
+<h2 id="albums">Show  Facebook Albums</h2>
+<strong>[fpalbums id=x]</strong>
+
+Where x is the userid or page id. This will by default will show 25 recent albums on the user or page profile. To show more or lesser photos
+
+<strong>[fpalbums id=x  limit=y]</strong>
+
+Where y is the number of albums to show eg
+
+<strong>[fpalbums id=’endexus’ limit=’10’]</strong> will output the last 10 albums
+
+To exclude  albums from a list <strong> [fpalbums  excl='a,b,c,d']</strong> where a,b,c,d are comma-separated IDs of albums to be excluded
+
+To specify albums to show   <strong>[fpalbums  incl='a,b,c,d']</strong> where a,b,c,d are comma-separated IDs of albums to be shown
+
+&nbsp;
+
+&nbsp;
+<h2 id="photos">Show  Facebook Album Photos</h2>
+In a situation where one needs to showcase the photos in an album use
+
+<strong>[fpphotos id=x ]</strong>
+
+Where x is the album id this will show up to 200 photos in an album by default
+
+To limit  the photos
+
+<strong>[fpphotos id=x   limit=y]</strong>
+
+Example
+
+[fpphotos id=’209112642458743’ limit=’20’]
+<h2>Show photos in  Template</h2>
+In the event that you want to include your photos or albums into your templates. You can call the following php function:
+
+
+&nbsp;
+<h2 id="photos">Show  Facebook Events</h2>
+To show all events <strong>[fpallevents id=’x’]</strong> where x is the id of the user. For example [fpallevents id=’cocacola’] gets all events belonging to cocacola starting with the last 25 by default
+To limit the number of events to show per page <strong>[fpallevents id=x limit=y] </strong> where y is the number per page
+To show a single event use <strong>[fpevent id=x]</strong> where x is the event ID
+<h1 class="mainitem" id="ownstyles"><span style=";">Creating Your Own Styles</span></h1>
+The default styles mimic the styles at Facebook, however you are not limited to using this style alone on your website. You can customize the appearance by  adding your CSS rules to style.css in the facebook-walleria folder.  
+These rules would override the default styles.It is advisable that you backup your installation before attempting to alter the styles.
+
+<h1 class="mainitem" id="troubleshooting"><span style=";">Troubleshooting</span></h1>
+<h2 id="tr1">No data returned from Facebook</h2>
+Most probably you have restricted the data that applications can get from your Facebook account. Go to you <strong>Facebook Account &gt;&gt; Privacy Settings &gt;&gt; Apps and Websites &gt;&gt;</strong>
+
+<strong></strong><a href="assets/images/how_apps.png"><img class="alignnone size-full wp-image-92" title="how_apps" src="assets/images/how_apps.png" alt="" width="500" height="362" /></a>
+
+Then tick the required permissions
+<h2 id="tr2">Call to undefined method Facebook::setAccessToken() error</h2>
+If you get an error like this
+Call to undefined method Facebook::setAccessToken() in /xxx/wp-content/plugins/facebook-walleria/facebook-walleria.php
+
+most probably you have a plugin that is using the old Facebook's PHP SDK. You may need to unistall it or update it.
+<h1 class="mainitem" id="shortcodes"><span style=";">Shortcodes</span></h1>
+<ul>
+    <li><strong>[fpalbums id='x']</strong> - Show all albums</li>
+    <li><strong>[fpalbums id='x' limit=25]</strong> - Show Only 25 photos</li>
+    <li><strong>[fpalbums id='x' paging=25]</strong> - Show 25 photos per page when album is clicked</li>
+    <li><strong>[fpalbums id='x' excl='albumx,albumy']</strong> - Show all albums except albums with ID albumx  and albumy</li>
+    <li><strong>[fpalbums id='x' incl='albx,alby']</strong> - Show only albums with ID albx and alby</li>
+    <li><strong>[fpalbums id='x' showfburl='true']</strong> - Show only albums with ID ans also show the link to Facebook</li>
+    <li><strong>[fpphotos id='albx' showfburl='true']</strong> -Show photos in album with ID albx and its Facebook Link</li>
+    <li><strong>[fpphotos id='albx']</strong> -Show photos in album with ID albx</li>
+    <li><strong>[fpphotos id='albx' limit=25]</strong> - Display only 25 photos</li>
+    <li><strong>[fpphotos id='albx' paging=25]</strong> - Display 25 photos per page</li>
+    <li><strong>[fpallevents id='x']</strong> - Display all events belonging to x</li>
+    <li><strong>[fpallevents id='x' limit=25]</strong> - Display only 25 events</li>
+    <li><strong>[fpevent id='eid']</strong> - Display event with id eid</li>
+    <li><strong>[fpwall id='x']</strong> - Display x's wall</li>
+    <li><strong>[fpwall id='x' limit=25]</strong> - Only display 25 posts per page load</li>
+    <li><strong>[fpwall id='x' scroll='noscroll']</strong> - Stop autoloading on page scroll </li>
+    <li><strong>[fpwall id='x' photostrip=5]</strong> - Display only 5 photos on the top photostrip on the wall</li>
+    
+</ul>
+<h1 class="mainitem" id="widgets"><span style=";">Widgets</span></h1>
+Facebook Walleria 2.5 has incorporated two widgets.
+<ul>
+    <li>Facebook Walleria Photo Widget</li>
+    <li>Facebook Walleria Status Widget</li>
+</ul>
+<h2 id="widget1">Facebook Walleria Photo Widget</h2>
+This widget allows you to specify an album that you want to showcase. You also specify
+the number of thumbnails to show on the widget. On clicking on the thumbnail the photos in
+your album will be shown as a Fancy gallery
+<h2 id="widget2">Facebook Walleria Status Widget</h2>
+This allows you to show your Facebook Status on a sidebar
+<h1 class="mainitem" id="widgets"><span style=";">Using in Templates</span></h1>
+There are a number of ways to incorporate Facebook Walleria 2.5 into templates.
+<ul>
+    <li>Use <strong>echo do_shortcode()</strong> together with a valid Facebook Walleria Shortcode</li>
+    <li>You can use the following functions
+        <ul>
+            <li>
+         <?php
+echo fwpg_embed_photos($albumid, $limit, true) where $limit is the maximum number to show
+?>
+            </li>
+            <li> <?php
+echo fwpg_embed_albums($userid, $limit) where $limit is the maximum number to show
+?></li>
+            <li>
+                <?php echo fwpg_embed_wall($userid)?>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<h1 class="mainitem" id="faq"><span style=";">FAQ</span></h1>
+<h2 id="faq1">So how does Facebook Walleria’s wall work?</h2>
+What happens is that by entering your Facebook App Id and App Secret , FW would ping Facebook and request an access token that does not expire with specified permissions. The access token is stored in your database . This access token would be used to draw information from facebook that you may need to present on your website.
+
+If a person is logged into facebook and visits your site, the site would detect that this so that when he or she wants to comment , like or share he will be prompted to connect with your application first.
+
+&nbsp;
+<h2 id="faq2">Is the data legal?</h2>
+All the data that you get on your website is provided by Facebook through the Facebook Platform.
+<h2 id="faq3">What kind of facebook information is stored in my database?</h2>
+Only the App Id, App Secret and the Access Token are stored in your database from Facebook.
+<h2 id="faq4">How do I get Application Id and Application Secret?</h2>
+Get a list of your applications from here: <a href="http://www.facebook.com/developers/apps.php" target="_blank">Facebook Application List</a>
+
+Select the application you want, then copy and paste the Application ID and Application Secret from there to the boxes below.
+<h2 id="faq5">How do I create an application</h2>
+<ol>
+<ol>
+	<li>Go here to create it: <a href="//www.facebook.com/developers/createapp.php" target="_blank">Create a facebook app</a></li>
+	<li>Make sure to enter your correct website address under <strong>site url</strong></li>
+	<li>Get your app id and app secret from here:
+<a href="http://www.facebook.com/developers/apps.php" target="_blank">Facebook Application List</a></li>
+	<li>Select the application you created, then copy and paste the Application ID and Application Secret to the settings page</li>
+</ol>
+</ol>
+<h2 id="faq6">Can I use the Facebook application on localhost?</h2>
+Yes you can but before you do, edit  the application URL at Facebook to <a href="http://localhost/%5b-site-directory-">http://localhost/[-site-directory-</a>] and the site domain to localhost.<a href="assets/images/localhost.jpg"><img class="alignnone size-full wp-image-75" title="localhost" src="assets/images/localhost.jpg" alt="" width="551" height="373" /></a>
+<h2 id="faq7">Can I show my personal wall with Facebook Walleria?</h2>
+Yes you can but you must understand that Facebook Walleria’s wall plugin was made primarily for page walls’ content but it can also work with  personal walls.
+
+Can I show group wall with Facebook Walleria?
+
+There is a problem with getting group photos with Facebook Graph thus you will only be able to show the stream and not the photostrip.
+<h2 id="faq8">Can I show personal albums with  FW?</h2>
+Yes you can just put your user alias into the shortcode and all your albums will be available to you
+<h2 id="faq9">How do I get the  facebook  username or user id?</h2>
+Check the url of your browser after you click profile. If you haven’t set up a personalized username then the numeric numbers  as shown below.
+
+&nbsp;
+
+<h5>Numeric Id</h5>
+<img class="alignnone size-full wp-image-77" title="userid" src="assets/images/userid.jpg" alt="" width="499" height="37" /></a>
+
+    <h5>Personalized Id</h5>
+<a href="assets/images/personalized.jpg"><img class="alignnone size-full wp-image-78" title="personalized" src="assets/images/personalized.jpg" alt="" width="465" height="37" /></a>
+<h2 id="faq10">What happens if the user has javascript turned off?</h2>
+Usually when you click on an album on facebook a url shows that is more like the one below. The album id is the one after a[dot]  to the other dot.
+
+<a href="assets/images/albumid1.jpg"><img class="alignnone size-full wp-image-81" title="albumid" src="assets/images/albumid1.jpg" alt="" width="529" height="35" /></a>
+<h2 id="faq11">What happens if the user has javascript turned off?</h2>
+The plugin uses PHP and Javascript to enhance your experience. In the absence of Javascript all enhanced functionality like fancybox would be unavailable however the primary content will be present, so absence of javascript will not mess or reduce the appearance of your primary content.
+
+You will however have an increased page  load as content will be loaded synchronous in the absence of javascript. This increase in load time is usually negligible with fast internet. To cater for slower internet we have reduced the number of albums and photos that will be shown in the absence of javascript.
+
+<h2 id="changelog"><strong><span style=";">CHANGELOG</span></strong></h2>
+
+<h5>=========2.5===============</h5>
+*  Ajax completely rewritten for better security
+* [Feature]Photo Sharing
+* [Feature]Photo Tagging
+* [Feature]Photo sharing
+* [Feature]Facebook Connection
+* [bug]    Fixed the perpetual redirection bug that hindered app  setup
+* [bug]    Edited Fancybox so that it doesnt conflict with any other fancybox installations
+* [bug]    Fixed the Access Token missing bug
+
+
+
+<h5>=========2.4===============</h5>
+* [bug]Solved the album sorting bug<br/>
+* [bug]Fixed Fancybox on paging of photos
+* [bug]Fixed curpage function conflict with other themes<br/>
+* [Feature] Added Wall Posting for text and Links
+* [Feature] Added Photo Widget
+* [Feature] Added Status Widget
+* [Feature] Better Login Detection Algorithm
+
+2. Fixed Fancybox on paging of photos
+<h5>=========2.3===============</h5>
+* [feature]added events to the plugin<br/>
+* [bug] sorted profile links on Wall plugin
+
+<h5>=========2.2===============</h5>
+* [feature]added paging for photos in albums<br/>
+* [feature]added update notifier
+
+<h5>=========2.0.1 ============</h5>
+*cleaned the code by making javascript load as external file<br/>
+* added shortcode attributes excl and incl to exclude albums or include specific albums
+
+<h5>=========2.0.0 ===========</h5>
+First major release after Facebook Page Photo Gallery 1.0.3
+    </body>
+</html>

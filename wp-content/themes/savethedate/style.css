@@ -1,0 +1,742 @@
+/*
+Theme Name: Save The Date
+Author URI: http://ithemes.com
+Version: 1.0.4
+
+Author: iThemes
+Description: Save The Date is a light and airy wedding theme from iThemes.
+
+Version History
+	See history.txt
+*/
+
+html, body { margin: 0; padding: 0; }
+
+body {
+	background: #fff;
+	color: #666;
+	font-size: 14px;
+	font-family: Baskerville, Georgia, Serif;
+	text-align: center;
+}
+body * {
+	margin: 0px;
+	padding: 0px;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	margin: 0px; padding: 0px;
+	height: 0;
+	visibility: hidden;
+}
+
+/*********************************************
+	Link Styles
+*********************************************/
+a {
+	color: #666;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #9970B0;
+	text-decoration: none;
+}
+
+/*********************************************
+	Text Elements
+*********************************************/
+p, ul, ol, blockquote {color: #666;}
+ol, ul {
+	margin: 5px 35px;
+}
+blockquote {
+	margin: 5px 0px 5px 10px;
+	padding: 0px 0px 0px 10px;
+	border-left: 1px solid #999;
+}
+img {
+	border: 0px;
+	background: none;
+}
+p {
+	padding: 10px 0px;
+	margin: 0px;
+}
+
+/*********************************************
+	Header Styles
+*********************************************/
+h1 { /* This style used as title on single posts and pages */
+	color: #666;
+	font-size: 16px;
+	padding: 5px 0px 5px 0px;
+	margin: 0px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+h1 a {
+	text-decoration: none;
+}
+h1 a:hover {
+	text-decoration: underline;
+}
+h2 { /* This style used as header in the sidebars */
+	font-size: 15px;
+	color: #999;
+	margin: 0px 0px 10px 0px;
+	padding: 5px 0px 0px 0px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+h3 { /* This style used as the post titles on homepage/archive */
+	font-size: 20px;
+	padding: 10px 0px 5px 0px;
+	margin: 0px;
+	color: #666;
+	text-decoration: none;
+}
+h3 a {
+}
+h3 a:hover {
+}
+h4 { /* This style used as title for comments and as the identifying header on archive page  */
+	font-size: 12px;
+	padding: 10px 0px 5px 0px;
+	margin: 0px;
+	color: #666;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 0px solid #999;
+}
+h5 { /* This style used for the product price  */
+	font-size: 16px;
+	color: #666;
+	text-decoration: none;
+	padding: 5px 0px 5px 0px;
+}
+h6 { /* This style used for second product price  */
+	font-size: 15px;
+	color: #666;
+	text-decoration: none;
+	padding: 5px 0px 5px 0px;
+}
+
+/*********************************************
+	Container Div
+*********************************************/
+#container {
+	background: #fff;
+	border: 0px solid #666;
+	text-align: left;
+	margin: 20px auto;
+	width: 790px;
+	padding: 0px;
+}
+#toptag {
+	display: block;
+	background: #000;
+	color: #fff;
+	margin: 0px auto; padding: 0px;
+	text-align: center;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+}
+
+/*********************************************
+	Header Styles
+*********************************************/
+#header {
+	border: 0px solid black;
+	background: #fff url(images/logo.jpg) no-repeat;
+	margin: 0px;
+	padding: 0px;
+	width: 790px; height: 55px;
+	display: block;
+	position: relative;
+	z-index: 999;
+}
+#header h1, #header h1 a {
+	display: block;
+	width: 405px; height: 45px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+#header h2 { /* This style used as header in the sidebars */
+	font-size: 18px;
+	color: #333;
+	background: transparent;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+#header p {
+	margin: 0px;
+	padding: 0px 0px 5px 0px;
+}
+.headerleft {
+	width: 300px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.headerright {
+	width: 455px;
+	float: right;
+	margin: 0px;
+	padding: 15px;
+	text-align: right;
+}
+/*********************************************
+	Feature
+*********************************************/
+#rotator-wrapper {
+	clear: both;
+	border: 0px solid #fff;
+	background: transparent url("images/imageframe.png");
+	color: #666;
+	height: 500px;
+	width: 790px;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	display: block;
+	position: relative;
+}
+#rotator-wrapper a {
+}
+#rotator-wrapper a:hover {
+	text-decoration: none;
+}
+
+#featured-images-rotator-wrapper {
+	padding: 15px;
+	width: 760px;
+	height: 470px;
+}
+
+/*********************************************
+	Home Thumbnails Div
+*********************************************/
+.thumbnail {
+	float: left;
+	padding: 5px 0px 5px 0px;
+	margin: 0px 0px 30px 0px;
+	background: #fff;
+	display: inline;
+	border: 0px solid #000;
+}
+.thumbnail p {
+	font-size: 10px;
+	text-transform: uppercase;
+	clear: both;
+	padding: 0px;
+	text-align: center;
+}
+.thumbnail h3 { /* This style used as the post titles on homepage/archive */
+	font-size: 15px;
+	padding: 0px 0px 5px 0px;
+	margin: 0px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+.thumbnail h3 a {
+	text-decoration: none;
+}
+.thumbnail h3 a:hover {
+	text-decoration: underline;
+}
+.thumbnail img {
+	margin: 0px 5px 5px 5px;
+	border: 0px;
+	padding: 0px;
+	width: 252px;
+	height: 175px;
+	float: left;
+	border: 1px solid #666;
+}
+.thumbnail img a {
+	border: none;
+}
+.thumbnail img a:hover {
+	border: 0px solid #fff;
+}
+
+/*********************************************
+	Content Div
+*********************************************/
+#content {
+	float: left;
+	margin: 0px;
+	padding: 35px 0 10px;
+	width: 530px;
+	display: block;
+	border: 0px solid black;
+}
+#content img {
+	padding:0px;
+	border: 0px solid #cfcfcf;
+}
+#gallerycontent {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 5px 5px 5px;
+}
+.post-more { /* Use this class to style the "more" tag */
+}
+.post-more a, .post-more a:visited { /* Use this class to style the link within the post-more div */
+}
+
+/*********************************************
+	Post Meta Styles
+*********************************************/
+.meta-top {
+	clear: both; /* we need this so floats in the post are cleared */
+	padding: 5px;
+	margin: 10px 0px;
+	background: #CCC;
+}
+.meta-bottom {
+	clear: both; /* we need this so floats in the post are cleared */
+	padding: 5px;
+	color: #333;
+	margin: 20px 0px;
+	border-top: 1px solid #ddd;
+	text-align: right;
+}
+.meta-bottom p, .meta-bottom a {
+	padding: 0px;
+	text-transform: uppercase;
+	font-size: 9px;
+	font-weight: normal;
+}
+.meta-date {
+	margin: 0px 5px;
+}
+.meta-author {
+	margin: 0px 5px;
+}
+.meta-comments {
+	margin: 0px 5px;
+}
+.meta-category {
+	margin: 0px 5px;
+}
+#date-meta {
+	background: url('images/datebox.png') no-repeat;
+	position: absolute;
+	height: 77px;
+	width: 75px;
+	font-family: Helvetica, arial, sans-serif;
+	text-align: center;
+	margin-left: -110px;
+	padding-top: 6px;
+	line-height: 1;
+}
+#date-meta .day {
+	font-size: 50px;
+	color: #78548D;
+	font-weight: bold;
+}
+#date-meta .month {
+	font-size: 20px;
+	color: #FFF;
+	font-weight: bold;
+}
+/*********************************************
+	Previous/Next Page Navigation
+*********************************************/
+.page-nav {
+	clear: both; /* To clear any floats */
+	margin: 10px 0px;
+	padding: 10px 0px;
+}
+.nav-previous {
+	width: 249px;
+	float: left;
+	text-align: left;
+}
+.nav-next {
+	width: 249px;
+	float: right;
+	text-align: right;
+}
+
+/*********************************************
+	Left Sidebar
+*********************************************/
+#r_sidebar {
+	display: inline;
+	text-transform: uppercase;
+	font-size: 10px;
+	float: right;
+	border: 0px solid black;
+	width: 200px;
+	margin: 0px 10px 15px 0px;
+	padding: 40px 10px 10px 15px;
+	display: block; /* floats are handled as block elements, this is to fix 
+						a margin collapsing bug in IE */
+}
+#r_sidebar h2 { /* This style used as header in the sidebars */
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+}
+#r_sidebar p {
+	font-size: 11px;
+	text-transform: none;
+	padding: 0px 0px 5px 0px;
+}
+#r_sidebar img {
+	text-align: center;
+}
+#r_sidebar form {
+	padding: 0px;
+	margin: 5px;
+}
+#r_sidebar ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+#r_sidebar ul li {
+	padding: 0px 0px 10px 0px;
+}
+#r_sidebar ul li ul {
+	padding: 0px 0px 0px 0px;
+}
+#r_sidebar ul li ul li {
+	padding: 0px;
+	margin: 5px;
+}
+#r_sidebar ul li ul li a {
+	font-weight: normal;
+}
+#r_sidebar ul li ul li a:hover {
+}
+#r_sidebar ul li ul li ul {
+	padding: 0px;
+	margin: 0px;
+}
+#r_sidebar ul li ul li ul li {
+	padding: 0px;
+	margin: 5px 10px 5px 5px;
+}
+
+/*********************************************
+	Comment Styles
+*********************************************/
+#comments {
+	padding: 8px;
+	color: #666;
+}
+#comments p, #comments a {
+	padding: 0px;
+	text-transform: uppercase;
+	font-size: 9px;
+	font-weight: normal;
+}
+#comments .even {
+	margin: 5px 0px 5px 0px;
+	padding: 10px;
+	background: #fff;
+	color: #000;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	text-transform: uppercase;
+	font-size: 9px;
+	font-weight: normal;
+}
+#comments .odd {
+	margin: 5px 0px 5px 0px;
+	padding: 10px;
+	background: #fff;
+	color: #000;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	text-transform: uppercase;
+	font-size: 9px;
+	font-weight: normal;
+}
+#comments .odd p{
+	padding: 8px;
+	color: #000;
+}
+#comments .odd a {
+	color: #000;
+	font-weight: normal;
+	text-decoration: underline;
+}
+#comments .odd a:hover { text-decoration: none; }
+#comments .even p{
+	padding: 8px;
+	color: #000;
+}
+#comments .even a {
+	color: #000;
+	font-weight: normal;
+	text-decoration: underline;
+}
+#comments .even a:hover { text-decoration: none; }
+#ithemes-contact-page-name,
+#ithemes-contact-page-website,
+#ithemes-contact-page-email,
+#ithemes-contact-page-form textarea {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+}
+#commentform textarea,
+#commentform input {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+/************************************************
+	Home Bottom
+************************************************/
+#homebottom {
+	width: 790px;
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+#homebottom .widget {
+	width: 250px;
+	display: inline;
+	float: left;
+	padding: 5px;
+}
+
+/************************************************
+	Bottom Sidebar
+************************************************/
+#bottom {
+	background: #fff;
+	color: #666;
+	width: 790px;
+	margin: 0px auto 0px;
+	padding: 10px 0px 20px 0px;
+	line-height: 20px;
+	clear: both;
+	border-top: 0px solid #666;
+}
+#bottom p, #bottom .textwidget {
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	color: #666;
+}
+#bottom h2 {
+	color: #666;
+	background: #fff;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+	margin: 0px 0px 10px 0px;
+	padding: 5px 0px 0px 0px;
+}
+#bottom h2 a, #bottom h2 a:visited  {
+	text-decoration: none;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#hometop h2 a:hover {
+	text-decoration: none;
+}
+#bottom img{
+	float: left;
+	border: none;
+	margin: 0px 0px 10px 0px;
+}
+#bottom ul{
+	list-style-type: square;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#bottom ul li{
+	list-style-type: square;
+	margin: 0px 0px 0px 20px;
+	padding: 0px 0px 0px 0px;
+}
+.bottomleft {
+	float: left;
+	width: 227px;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 20px 10px 20px;
+	overflow: hidden;
+}
+.bottommiddle {
+	float: left;
+	width: 227px;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 20px 10px 20px;
+	overflow: hidden;
+}
+.bottomright {
+	float: right;
+	width: 227px;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 20px 10px 0px;
+	overflow: hidden;
+}
+
+/*********************************************
+	Footer Styles
+*********************************************/
+#footer {
+	margin: 0px auto 0px;
+	padding: 0px;
+	clear: both;
+	text-align: left;
+	width: 780px;
+	color: #999;
+	text-transform: uppercase;
+}
+#footer a {
+	font-weight: normal;
+	color: #999;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #666;
+	text-decoration: none;
+}
+#footer p {
+	color: #999;
+	margin: 0px;
+	font-size: 9px;
+	padding: 0px 0px 0px 0px;
+}
+.footer ul {
+	margin: 0px;
+	padding: 0px 0px;
+}
+#footer ul li {
+	display: inline;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px 0px;
+}
+#footer ul li a {
+	padding: 0px 0px;
+	margin: 0px;
+	text-decoration: none;
+}
+#footer ul li a:hover {
+	text-decoration: none;
+}
+.footerleft {
+	width: 45%;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+.footerright {
+	width: 45%;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+}
+
+/*********************************************
+	WP GALLERY SETTINGS
+*********************************************/
+.aligncenter,
+	div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	/* optional rounded corners for browsers that support it */
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+
+/****************GALLERY*********************/
+.gallery {
+	text-align:center;
+}
+.gallery img {
+	padding:0px;
+	border: 0px solid #cfcfcf;
+}
+.gallery a:hover {
+	background-color:#ffffff;
+}
+.attachment {
+	text-align:center;
+}
+.attachment img {
+	padding:0px;
+}
+.attachment a:hover {
+	background-color:#FFFFFF;
+}
+p.postmetadata_alt {
+	width: 530px;
+	clear: both;
+	margin: auto;
+}
+h2.gallery {
+	text-align: center;
+}
+.imgnav {
+	text-align:center;
+}
+.imgleft {
+	float:left;
+}
+.imgleft a:hover {
+	background-color:#FFFFFF;
+}
+.imgleft img{
+	padding:0px;
+}
+.imgright {
+	float:right;
+}
+.imgright a:hover {
+	background-color:#FFFFFF;
+}
+.imgright img{
+	padding:0px;
+}
+.navigation {
+	width:530px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

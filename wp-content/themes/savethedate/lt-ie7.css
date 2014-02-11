@@ -1,0 +1,5 @@
+/* Use this stylesheet to fix problems with any IE browser below IE7 */
+#comments .even, #comments .odd {
+	word-wrap: break-word;
+}
+.clearfix { height: 1%; }

@@ -1,0 +1,10 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^vitorejakeline.com.br
+RewriteRule ^ http://www.vitorejakeline.com.br%{REQUEST_URI} [L,R=301]
+
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]

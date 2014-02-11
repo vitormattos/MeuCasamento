@@ -1,0 +1,16 @@
+/* 
+    Document   : style
+    Created on : Oct 7, 2011, 10:29:06 PM
+    Author     : Freeman
+    Description:
+        This is where you can put your custom css.
+*/
+
+/*some classes you can customise. Add your css rules below to overide default*/
+.fp-PhotoThumbnail i{width:161px; height:120px}
+.fp-WallContainer{}
+.fp-WallContainer a{}
+.fp-StreamHeader {}
+.fp-Message {}
+.fp-LikesCountWrapper {}
+.fp-FooterItemWrapper{}

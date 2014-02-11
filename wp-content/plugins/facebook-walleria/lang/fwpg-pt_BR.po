@@ -1,0 +1,591 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Facebook Walleria\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-06 03:26-0500\n"
+"PO-Revision-Date: 2013-04-08 10:44-0300\n"
+"Last-Translator: Vitor Mattos <vitor.mattos@phprio.org>\n"
+"Language-Team: Zoxion\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__(;_e(;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin.php:10
+#, php-format
+msgid "Facebook Walleria (version %s)"
+msgstr "Facebook Walleria (versão %s )"
+
+#: admin.php:26
+#: lib/admin-tab-permissions.php:31
+msgid "Facebook Permissions"
+msgstr "Facebook Permissões"
+
+#: admin.php:27
+msgid "Appearance"
+msgstr "Aparência"
+
+#: admin.php:28
+msgid "Animations"
+msgstr "Animações"
+
+#: admin.php:29
+msgid "Behaviour"
+msgstr "Comportamento"
+
+#: admin.php:30
+msgid "Other"
+msgstr "outros."
+
+#: admin.php:31
+#: lib/admin-tab-support.php:1
+msgid "Support"
+msgstr "Suporte"
+
+#: admin.php:32
+#: lib/admin-tab-uninstall.php:1
+msgid "Uninstall"
+msgstr "Desinstalar"
+
+#: admin.php:68
+msgid "Save Changes"
+msgstr "Salvar Alterações"
+
+#: facebook-walleria.php:206
+msgid "JavaScript is disabled on your browser"
+msgstr "JavaScript está desativado em seu navegador"
+
+#: facebook-walleria.php:206
+msgid "Please enable JavaScript or upgrade to a JavaScript-capable browser to do more"
+msgstr "Por favor habilitar o JavaScript ou atualize para um navegador compatível com JavaScript"
+
+#: facebook-walleria.php:663
+msgid "and "
+msgstr "e "
+
+#: facebook-walleria.php:663
+msgid " others like this"
+msgstr " outros como este"
+
+#: facebook-walleria.php:665
+#: facebook-walleria.php:674
+msgid " likes this"
+msgstr " gosto disto"
+
+#: facebook-walleria.php:672
+msgid " people like this"
+msgstr " pessoa curtiu isto"
+
+#: facebook-walleria.php:768
+#: facebook-walleria.php:821
+#: lib/jstext.php:28
+msgid "Location"
+msgstr "Localização"
+
+#: facebook-walleria.php:769
+#: facebook-walleria.php:822
+#: lib/jstext.php:29
+msgid "Created By"
+msgstr "Criado por"
+
+#: facebook-walleria.php:770
+#: facebook-walleria.php:823
+#: lib/jstext.php:30
+msgid "More Info"
+msgstr "Mais informações"
+
+#: facebook-walleria.php:1057
+msgid " about a second ago"
+msgstr " cerca de um segundo atrás"
+
+#: facebook-walleria.php:1060
+msgid " seconds ago"
+msgstr " segundo atrás"
+
+#: facebook-walleria.php:1063
+msgid " about a minute ago"
+msgstr " cerca de um minuto atrás"
+
+#: facebook-walleria.php:1068
+msgid " minutes ago"
+msgstr " minutos atrás"
+
+#: facebook-walleria.php:1072
+msgid " about an hour ago"
+msgstr " cerca de uma hora atrás"
+
+#: facebook-walleria.php:1076
+msgid " hours ago"
+msgstr " horas atrás"
+
+#: facebook-walleria.php:1081
+#: facebook-walleria.php:1086
+#: facebook-walleria.php:1093
+msgid " at "
+msgstr " em "
+
+#: facebook-walleria.php:1229
+#, php-format
+msgid "You will not be able to use Facebook Walleria unless you set a valid Application ID and Application Secret. Please <a href=\"%s\">set up your account "
+msgstr "Você não será capaz de usar o Facebook Walleria menos que você defina um ID válido e Aplicação segredo da aplicação. <a href=\"%s\"> configurar sua conta "
+
+#: lib/admin-tab-animations.php:1
+msgid "Animation Settings <span style=\"color:green\">(basic)</span>"
+msgstr "Animação Configurações <span style=\"color:green\">(básico)</span>"
+
+#: lib/admin-tab-animations.php:3
+msgid "These settings control the animations when opening and closing Fancybox, and the optional easing effects."
+msgstr "Estas definições controlam as animações ao abrir e fechar FancyBox, e os efeitos de flexibilização opcionais."
+
+#: lib/admin-tab-animations.php:9
+msgid " Options"
+msgstr " Opções"
+
+#: lib/admin-tab-animations.php:15
+msgid "Change content transparency during  animations (default: on)"
+msgstr "Alterar a transparência de conteúdo durante as animações (default: on)"
+
+#: lib/admin-tab-animations.php:27
+msgid "Speed in miliseconds of the ing-in animation (default: 500)"
+msgstr "Velocidade em milisegundos do ING em animação (padrão: 500)"
+
+#: lib/admin-tab-animations.php:39
+msgid "Speed in miliseconds of the ing-out animation (default: 500)"
+msgstr "Velocidade em milisegundos da animação ing-out (padrão: 500)"
+
+#: lib/admin-tab-animations.php:51
+msgid "Speed in miliseconds of the animation when navigating thorugh gallery items (default: 300)"
+msgstr "Velocidade em milisegundos da animação quando navegando itens da galeria thorugh (padrão: 300)"
+
+#: lib/admin-tab-appearance.php:1
+msgid "Appearance Settings <span style=\"color:green\">(basic)</span>"
+msgstr "Configurações de aparência <span style=\"color:green\">(básico)</span>"
+
+#: lib/admin-tab-appearance.php:3
+msgid "These setting control how Fancybox looks, they let you tweak color, borders and position of elements, like the image title and closing buttons."
+msgstr "Estas configurações definem como FancyBox olha, elas permitem que você faça ajuste de cores, bordas e de posição de elementos, como o título da imagem e botões de fechar."
+
+#: lib/admin-tab-appearance.php:8
+msgid "Gallery Frame Size"
+msgstr "Tamanho do Frame Gallery"
+
+#: lib/admin-tab-appearance.php:14
+msgid "Frame Width (default: 560)"
+msgstr "Largura do Frame (padrão: 560)"
+
+#: lib/admin-tab-appearance.php:19
+msgid "Frame Height (default: 340)"
+msgstr "Altura Estrutura (padrão: 340)"
+
+#: lib/admin-tab-appearance.php:27
+msgid "Border Color"
+msgstr "Cor da borda"
+
+#: lib/admin-tab-appearance.php:33
+msgid "Show Border (default: off)"
+msgstr "Show Border (default: off)"
+
+#: lib/admin-tab-appearance.php:38
+msgid "HTML color of the border (default: #BBBBBB)"
+msgstr "HTML da cor da borda (padrão: #BBBBBB)"
+
+#: lib/admin-tab-appearance.php:46
+msgid "Close Button"
+msgstr "Botão Fechar"
+
+#: lib/admin-tab-appearance.php:52
+msgid "Show Close button (default: on)"
+msgstr "Mostrar botão Fechar (padrão: on)"
+
+#: lib/admin-tab-appearance.php:55
+msgid "Close button position:"
+msgstr "Fechar posição do botão:"
+
+#: lib/admin-tab-appearance.php:58
+msgid "Left"
+msgstr "esquerda"
+
+#: lib/admin-tab-appearance.php:63
+msgid "Right (default)"
+msgstr "Direita (padrão)"
+
+#: lib/admin-tab-appearance.php:68
+msgid "Bottom"
+msgstr "Inferior"
+
+#: lib/admin-tab-appearance.php:73
+msgid "Top (default)"
+msgstr "Superior (padrão)"
+
+#: lib/admin-tab-appearance.php:81
+msgid "Padding"
+msgstr "Preenchimento"
+
+#: lib/admin-tab-appearance.php:87
+msgid "HTML color of the padding (default: #FFFFFF)"
+msgstr "HTML da cor do estofamento (padrão: #FFFFFF)"
+
+#: lib/admin-tab-appearance.php:90
+msgid "(This should be left on #FFFFFF (white) if you want to display anything other than images, like inline or framed content)"
+msgstr "(Isto deve ser deixado em #FFFFFF (branco), se você quiser exibir nada além de imagens, como o conteúdo inline ou framed)"
+
+#: lib/admin-tab-appearance.php:94
+msgid "Padding size in pixels (default: 10)"
+msgstr "Padding tamanho em pixels (padrão: 10)"
+
+#: lib/admin-tab-appearance.php:102
+msgid "Overlay Options"
+msgstr "Opções de Sobreposição"
+
+#: lib/admin-tab-appearance.php:108
+msgid "Add overlay (default: on)"
+msgstr "Adicionar overlay (padrão: on)"
+
+#: lib/admin-tab-appearance.php:113
+msgid "HTML color of the overlay (default: #666666)"
+msgstr "HTML da cor da sobreposição (padrão: # 666666)"
+
+#: lib/admin-tab-appearance.php:126
+msgid "Opacity of overlay. 0 is transparent, 1 is opaque (default: 0.3)"
+msgstr "Opacidade de sobreposição. 0 é transparente, uma é opaca (padrão: 0,3)"
+
+#: lib/admin-tab-appearance.php:134
+msgid "Show Title"
+msgstr "Exibir Título"
+
+#: lib/admin-tab-appearance.php:140
+msgid "Show the image title (default: on)"
+msgstr "Mostrar o título da imagem (default: on)"
+
+#: lib/admin-tab-appearance.php:147
+msgid " Title Position"
+msgstr " Título"
+
+#: lib/admin-tab-appearance.php:161
+msgid "Position of title (default: outside)"
+msgstr "Posição do título (padrão: fora)"
+
+#: lib/admin-tab-behaviour.php:1
+msgid "Behavior Settings <span style=\"color:orange\">(medium)</span>"
+msgstr "Comportamento Configurações <span style=\"color:orange\"> (médio) </ span>"
+
+#: lib/admin-tab-behaviour.php:3
+msgid "The following settings should be left on default unless you know what you are doing."
+msgstr "As seguintes definições devem ser deixados em padrão a menos que você saiba o que estão fazendo."
+
+#: lib/admin-tab-behaviour.php:9
+msgid "Auto Resize to Fit"
+msgstr "Redimensionar Auto para ajustar"
+
+#: lib/admin-tab-behaviour.php:15
+msgid "Scale images to fit in viewport (default: on)"
+msgstr "Imagens em escala para caber no visor (padrão: on)"
+
+#: lib/admin-tab-behaviour.php:23
+msgid "Center on Scroll"
+msgstr "Centrazliar a rolagem"
+
+#: lib/admin-tab-behaviour.php:29
+msgid "Keep image in the center of the browser window when scrolling (default: on)"
+msgstr "Mantenha imagem no centro da janela do navegador quando a rolagem (padrão: on)"
+
+#: lib/admin-tab-behaviour.php:37
+msgid "Close on Content Click"
+msgstr "Clique em Fechar na conteúdo"
+
+#: lib/admin-tab-behaviour.php:43
+msgid "Close FancyBox by clicking on the image (default: off)"
+msgstr "Fechar FancyBox clicando na imagem (padrão: off)"
+
+#: lib/admin-tab-behaviour.php:46
+msgid "(You may want to leave this off if you display iframed or inline content that containts clickable elements - for example: play buttons for movies, links to other pages)"
+msgstr "(Você pode querer deixar isso fora se você exibir conteúdo iframed ou inline que containts elementos clicáveis ​​- por exemplo: botões de reprodução de filmes, links para outras páginas)"
+
+#: lib/admin-tab-behaviour.php:53
+msgid "Close on Overlay Click"
+msgstr "Clique em Fechar na Overlay"
+
+#: lib/admin-tab-behaviour.php:59
+msgid "Close FancyBox by clicking on the overlay sorrounding it (default: on)"
+msgstr "Fechar FancyBox clicando na sobreposição sorrounding-lo (default: on)"
+
+#: lib/admin-tab-behaviour.php:67
+msgid "Close with &quot;Esc&quot;"
+msgstr "Feche com \"Esc\""
+
+#: lib/admin-tab-behaviour.php:73
+msgid "Close FancyBox when &quot;Escape&quot; key is pressed (default: on)"
+msgstr "Fechar FancyBox quando \"Escape\" tecla é pressionada (default: on)"
+
+#: lib/admin-tab-behaviour.php:80
+msgid "Cyclic gallery;"
+msgstr "Galeria cíclica;"
+
+#: lib/admin-tab-behaviour.php:86
+msgid "Have the gallery going continuously cyclic (default: off)"
+msgstr "Já a galeria vai continuamente cíclico (padrão: off)"
+
+#: lib/admin-tab-other.php:1
+msgid "Other Settings <span style=\"color:red\">(advanced)</span>"
+msgstr "Outras configurações <span style=\"color:red\">(avançado)</span>"
+
+#: lib/admin-tab-other.php:3
+msgid "These are additional settings for advanced users."
+msgstr "Essas são as configurações adicionais para usuários avançados."
+
+#: lib/admin-tab-other.php:9
+msgid "Callbacks"
+msgstr "Callbacks"
+
+#: lib/admin-tab-other.php:14
+msgid "Callback on Start event (default: empty)"
+msgstr "De retorno de chamada no evento de início (padrão: vazio)"
+
+#: lib/admin-tab-other.php:19
+msgid "Callback on Show event (default: empty)"
+msgstr "De retorno de chamada no evento Show (padrão: vazio)"
+
+#: lib/admin-tab-other.php:24
+msgid "Callback on Close event (default: empty)"
+msgstr "Callback em evento Close (padrão: vazio)"
+
+#: lib/admin-tab-other.php:28
+msgid "Example:"
+msgstr "exemplo."
+
+#: lib/admin-tab-other.php:32
+msgid "Leave the fields empty to disable."
+msgstr "Deixe os campos em branco para desabilitar."
+
+#: lib/admin-tab-other.php:39
+msgid "Load JavaScript in Footer"
+msgstr "Carregar JavaScript no rodapé"
+
+#: lib/admin-tab-other.php:45
+msgid "Loads JavaScript at the end of the blog's HTML (experimental) (default: off)"
+msgstr "Carrega JavaScript no final do HTML do blog (experimental) (padrão: off)"
+
+#: lib/admin-tab-other.php:48
+msgid "This option won't be recognized if you use <strong>Parallel Load</strong> plugin. In that case, you can do this from Parallel Load's options."
+msgstr "Esta opção não será reconhecido se você usa carregamento <strong>assíncrono</strong> de plugin. Nesse caso, você pode fazer isso a partir de opções de carregamento assíncrono."
+
+#: lib/admin-tab-permissions.php:25
+msgid "Facebook  Walleria will not work until you add a valid Application ID and Application Secret."
+msgstr "Facebook Walleria não irá funcionar até que você adicione um ID válido e Aplicação segredo da aplicação."
+
+#: lib/admin-tab-permissions.php:33
+msgid "Facebook Walleria is set up and ready to use !"
+msgstr "Facebook Walleria está configurado e pronto para usar!"
+
+#: lib/admin-tab-permissions.php:33
+msgid "For you to be able to access private facebook photos or wall you need to set up a facebook application and  grant permissions to your application. "
+msgstr "Para você ser capaz de acessar privado facebook fotos ou parede que você precisa para criar um aplicativo do Facebook e conceder permissões para a sua aplicação. "
+
+#: lib/admin-tab-permissions.php:39
+msgid "Application ID (<a href=\"http://zoxion.com\">Help</a>)"
+msgstr "Aplicação ID (<a href=\"http://zoxion.com\">Ajuda</a>)"
+
+#: lib/admin-tab-permissions.php:45
+msgid "Your application's ID (default: )"
+msgstr "ID do seu aplicativo (padrão:)"
+
+#: lib/admin-tab-permissions.php:51
+msgid "Application Secret(<a href=\"http://zoxion.com\">Help</a>)"
+msgstr "Aplicação Secret (Ajuda <a href=\"http://zoxion.com\"> </ a>)"
+
+#: lib/admin-tab-permissions.php:56
+msgid "Your application's secret (default:)"
+msgstr "Segredo do seu aplicativo (padrão:)"
+
+#: lib/admin-tab-permissions.php:63
+msgid "Share Picture (<a href=\"http://zoxion.com\">Help</a>)"
+msgstr "Imagem ação (<a href=\"http://zoxion.com\">Ajuda</a>)"
+
+#: lib/admin-tab-permissions.php:69
+msgid "Picture that appears alongside text when shared on Facebook"
+msgstr "Imagem que aparece ao lado de texto quando compartilhada no Facebook"
+
+#: lib/admin-tab-support.php:5
+msgid "If you have problems or questions about FancyBox itself (and not this WordPress plugin), please start with these links: <a target=\"_blank\" href=\"http://fancybox.net/howto\">How-To</a> & <a target=\"_blank\" href=\"http://fancybox.net/faq\">FAQ</a>.<br />If that does not help, go to <a href=\"http://groups.google.com/group/fancybox\">the FancyBox Google Group</a>, use the <strong>Search</strong> option, and if necesary, post your question."
+msgstr "Se você tiver problemas ou perguntas sobre FancyBox em si (e não do plugin esta WordPress), por favor, começar com estes links: <a target=\"_blank\" href=\"http://fancybox.net/howto\">Como fazer</a> e <a target=\"_blank\" href=\"http://fancybox.net/faq\">FAQ</a>.<br /> Se isso não ajudar, vá para <a href=\"http://groups.google.com/group/fancybox\"> o Grupo do Google do FancyBox</a>, use a <strong>Pesquisa</strong>, e se necessário, envie sua pergunta."
+
+#: lib/admin-tab-support.php:10
+msgid "If you are having trouble with this plugin try to localize the problem (switch your theme and deactivate plugins until you find the source of the problem). "
+msgstr "Se você está tendo problemas com este plugin tentar localizar o problema (mudar o seu tema e desativar plugins até encontrar a fonte do problema). "
+
+#: lib/admin-tab-support.php:11
+msgid "Try reverting these settings to their defaults with the button below."
+msgstr "Tente reverter essas configurações para seus padrões com o botão abaixo."
+
+#: lib/admin-tab-support.php:12
+msgid "If you still can not get the plugin to work, post a comment on <a href=\"http://zoxion.com/facebook-walleria/\"> my blog </a>"
+msgstr "Se você ainda não pode obter o plugin para trabalhar, postar um comentário no <a href=\"http://zoxion.com/facebook-walleria/\">meu blog</ a>"
+
+#: lib/admin-tab-support.php:15
+msgid "IMPORTANT:"
+msgstr "IMPORTANTE:"
+
+#: lib/admin-tab-support.php:15
+msgid "When posting your problem please provide a link to your blog, and all relevant information you can, especially your theme, plugins, etc."
+msgstr "Ao postar o seu problema, por favor fornecer um link para o seu blog, e todas as informações relevantes que puder, especialmente o tema do seu, plugins, etc"
+
+#: lib/admin-tab-uninstall.php:3
+msgid "Like many other plugins, Facebook Walleria stores its settings on your WordPress' options database table. Actually, these settings are not using more than a couple of kilobytes of space, but if you want to completely uninstall this plugin, check the option below, then save changes, and <strong>when you deactivate the plugin</strong>, all its settings will be removed from the database."
+msgstr "Como muitos outros plugins, Facebook Walleria guarda as suas configurações no banco de dados do seu WordPress. Na verdade, estas definições não estão usando mais do que um par de kilobytes de espaço, mas se você quiser desinstalar completamente este plugin, marque a opção abaixo, em seguida, salvar as alterações, e <strong>quando você desative o plugin</strong>, todos suas configurações serão removidos da base de dados."
+
+#: lib/admin-tab-uninstall.php:9
+msgid "Remove settings"
+msgstr "Remover configurações"
+
+#: lib/admin-tab-uninstall.php:15
+msgid "Remove Settings when plugin is deactivated from the \"Manage Plugins\" page. (default: off)"
+msgstr "Remover configurações quando plugin é desativado a partir da página do \"Gerenciador de Plugins\". (padrão: off)"
+
+#: lib/jstext.php:3
+msgid "photos"
+msgstr "fotos"
+
+#: lib/jstext.php:4
+msgid "Back to albums"
+msgstr "Voltar aos álbuns"
+
+#: lib/jstext.php:5
+#: lib/jstext.php:7
+msgid "Post"
+msgstr "Post"
+
+#: lib/jstext.php:6
+msgid "Link"
+msgstr "Link"
+
+#: lib/jstext.php:8
+msgid "Write something..."
+msgstr "Escreva alguma coisa..."
+
+#: lib/jstext.php:9
+msgid "Say something about this ..."
+msgstr "Diga algo sobre isto ..."
+
+#: lib/jstext.php:10
+msgid "Write a comment..."
+msgstr "Escrever um comentário..."
+
+#: lib/jstext.php:11
+msgid "View All"
+msgstr "Ver tudo"
+
+#: lib/jstext.php:12
+msgid "View"
+msgstr "Exibir"
+
+#: lib/jstext.php:13
+msgid "View previous comments"
+msgstr "Ver comentários anteriores"
+
+#: lib/jstext.php:14
+msgid "comments"
+msgstr "comentários"
+
+#: lib/jstext.php:15
+msgid "comment"
+msgstr "comentar"
+
+#: lib/jstext.php:16
+msgid "and"
+msgstr "e"
+
+#: lib/jstext.php:17
+msgid "others like this"
+msgstr "outros como este"
+
+#: lib/jstext.php:18
+msgid "likes this"
+msgstr "curtir isto"
+
+#: lib/jstext.php:19
+msgid "people like this"
+msgstr "pessoas curtiram isto"
+
+#: lib/jstext.php:20
+msgid "about a second ago"
+msgstr "cerca de um segundo atrás"
+
+#: lib/jstext.php:21
+msgid "about a minute ago"
+msgstr "cerca de um minuto atrás"
+
+#: lib/jstext.php:22
+msgid "about an hour ago"
+msgstr "cerca de uma hora atrás"
+
+#: lib/jstext.php:23
+msgid "seconds ago"
+msgstr "segundo atrás"
+
+#: lib/jstext.php:24
+msgid "minutes ago"
+msgstr "minutos atrás"
+
+#: lib/jstext.php:25
+msgid "hours ago"
+msgstr "horas atrás"
+
+#: lib/jstext.php:26
+msgid "Share"
+msgstr "compartilhar"
+
+#: lib/jstext.php:27
+msgid "via"
+msgstr "por"
+
+#: lib/jstext.php:31
+msgid "Time"
+msgstr "Hora"
+
+#: lib/jstext.php:32
+msgid "Map"
+msgstr "Mapa"
+
+#: lib/jstext.php:33
+msgid "Error"
+msgstr "Erro"
+
+#: lib/jstext.php:34
+msgid "Comment Posted"
+msgstr "Comentário publicado"
+
+#: lib/jstext.php:35
+msgid "You like this"
+msgstr "Você curtiu isto"
+
+#: lib/jstext.php:20
+msgid "person likes this"
+msgstr "pessoas curtiram isto"
+
+#: widgets/walleria-widgets.php:7
+msgid "Facebook Walleria Status"
+msgstr "Facebook Walleria Status"
+
+#: widgets/walleria-widgets.php:7
+msgid "This will show your Facebook Statuses on a side bar"
+msgstr "Isso vai mostrar seus status do Facebook em uma barra lateral"
+
+#: widgets/walleria-widgets.php:155
+msgid "Facebook Walleria Event"
+msgstr "Facebook Walleria evento"
+
+#: widgets/walleria-widgets.php:155
+msgid "This will show your Facebook Events on a side bar"
+msgstr "Isso vai mostrar seus eventos Facebook em uma barra lateral"
+
+#: widgets/walleria-widgets.php:308
+msgid "Facebook Walleria Photo Album"
+msgstr "Facebook Photo Album Walleria"
+
+#: widgets/walleria-widgets.php:308
+msgid "This will show a chosen Facebook Album on a side bar"
+msgstr "Isto irá mostrar um álbum Facebook escolhidos em uma barra lateral"
+
